@@ -1,4 +1,4 @@
-# Obsidian-Notebook-Themes v1.0.0
+# Obsidian-Notebook-Themes v1.1.0
 ## A Series of Notebook Theme CSS Snippets for Obsidian.
 These a few CSS classes that mimic a few of my real-world notebook pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
@@ -12,9 +12,11 @@ the images in your notes, too! Check out the full video going over the process [
 
 ### Pen Colors
 - Black (`.pen-black`)
+- Gray (`.pen-gray`)
 - Red (`.pen-red`)
-- Blue (`.pen-blue`)
 - Green (`.pen-green`)
+- Blue (`.pen-blue`)
+- Purple (`.pen-purple`)
 - White (`.pen-white`)
 
 ### Other Classes

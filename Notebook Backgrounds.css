@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-              Notebook Background Color Schemes by CyanVoxel v1.0.0
+              Notebook Background Color Schemes by CyanVoxel v1.1.0
 
 These a few CSS classes that mimic a few of my real-world pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
@@ -21,6 +21,10 @@ https://angel-rs.github.io/css-color-filter-generator
   --manila-pen-red-trans: #f0373622;
   --manila-pen-green: #15b64f;
   --manila-pen-green-trans: #15b64f22;
+  --manila-pen-gray: #5f5d58;
+  --manila-pen-gray-trans: #5f5d5822;
+  --manila-pen-purple: #9b4ff0;
+  --manila-pen-pruple-trans: #9b4ff022;
   --manila-page: #f3deaf;
   --blue-page: #3f76ed;
   --pen-white: #edf1fc;
@@ -152,6 +156,22 @@ https://angel-rs.github.io/css-color-filter-generator
   --hr-color: var(--accent-color);
   --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
     saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+}
+.pen-gray {
+  --accent-color: var(--manila-pen-gray);
+  --accent-color-trans: var(--manila-pen-gray-trans);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(35%) sepia(13%)
+    saturate(189%) hue-rotate(5deg) brightness(96%) contrast(86%);
+}
+.pen-purple {
+  --accent-color: var(--manila-pen-purple);
+  --accent-color-trans: var(--manila-pen-purple-trans);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(33%) sepia(59%)
+    saturate(2620%) hue-rotate(249deg) brightness(98%) contrast(93%);
 }
 
 hr {
