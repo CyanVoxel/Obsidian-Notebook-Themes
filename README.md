@@ -1,4 +1,4 @@
-# Obsidian-Notebook-Themes v2.0.0
+# Obsidian-Notebook-Themes v2.1.0
 ## A Series of Notebook Theme CSS Snippets for Obsidian.
 These a few CSS classes that mimic a few of my real-world notebook pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
@@ -22,7 +22,8 @@ Check out the full video going over the process [here](https://youtu.be/9T9VL8_i
 - White (`pen-white`)
 
 ### Other Classes
-- `.recolor-images`: Recolors all images on the page to match the current pen color.
-- `.embed-<PAGE-COLOR>`: Adds the specified page color as a background for all embedded images on a page.
+- `recolor-images`: Recolors all images on the page to match the current pen color.
+- `page-grid`: Adds grid lines to the page background.
+- `embed-<PAGE-COLOR>`: Adds the specified page color as a background for all embedded images on a page.
 
 *Image Effects generated with https://angel-rs.github.io/css-color-filter-generator.*
