@@ -18,13 +18,13 @@ https://angel-rs.github.io/css-color-filter-generator
   --pen-black: #26241f;
   --pen-red: #e14a49;
   --pen-green: #15b64f;
-  --pen-blue: #3f76ed;
+  --pen-blue: #405cb1;
   --pen-light-blue: #54b6f8;
   --pen-purple: #9b4ff0;
 
   --page-white: #ffffff;
   --page-manila: #f3deaf;
-  --page-blue: #3f76ed;
+  --page-blue: #405cb1;
 
   --neutral-pen-black: #272727;
   --neutral-pen-black-trans: #27272722;
@@ -32,6 +32,7 @@ https://angel-rs.github.io/css-color-filter-generator
   --page-color: var(--page-manila);
   --accent-color: var(--pen-black);
   --accent-color-trans: var(--manila-pen-black-trans);
+  --blueprint-grid-size: 32px;
 }
 
 /* Recolors images on the page with the current accent color. */
@@ -174,8 +175,12 @@ https://angel-rs.github.io/css-color-filter-generator
   --background-modifier-border-focus: var(--accent-color);
   --background-modifier-border: var(--accent-color-trans);
   --background-modifier-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
-
+  
   --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+
+  /* Blueprint grid settings */
+  background-image: linear-gradient(0deg, transparent 24px, #4F6EB1 25px, #4F6EB1 26px, transparent 27px), linear-gradient(90deg, transparent 24px, #4F6EB1 25px, #4F6EB1 26px, transparent 27px);
+	background-size: var( --blueprint-grid-size) var( --blueprint-grid-size);
 }
 .embed-blueprint img {
   background-color: var(--page-blue);
