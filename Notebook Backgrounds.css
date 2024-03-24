@@ -32,6 +32,8 @@ https://angel-rs.github.io/css-color-filter-generator
   --page-color: var(--page-manila);
   --accent-color: var(--pen-black);
   --accent-color-trans: var(--manila-pen-black-trans);
+
+  --grid-size: 32px;
 }
 
 /* Recolors images on the page with the current accent color. */
@@ -179,6 +181,12 @@ https://angel-rs.github.io/css-color-filter-generator
 }
 .embed-blueprint img {
   background-color: var(--page-blue);
+}
+
+/* Adds a grid layout on page background */
+.page-grid {
+	background-image: linear-gradient(0deg, transparent 24px, var(--accent-color-trans) 25px, var(--accent-color-trans) 26px, transparent 27px), linear-gradient(90deg, transparent 24px, var(--accent-color-trans) 25px, var(--accent-color-trans) 26px, transparent 27px);
+	background-size: var(--grid-size) var(--grid-size);
 }
 
 /* ------------------------------- Pen Colors ------------------------------- */
