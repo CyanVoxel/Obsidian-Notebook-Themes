@@ -1,4 +1,4 @@
-# Obsidian-Notebook-Themes v2.1.0
+# Obsidian-Notebook-Themes v2.1.1
 ## A Series of Notebook Theme CSS Snippets for Obsidian.
 These a few CSS classes that mimic a few of my real-world notebook pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
