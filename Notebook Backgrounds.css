@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-              Notebook Background Color Schemes by CyanVoxel v2.2.1
+              Notebook Background Color Schemes by CyanVoxel v2.2.2
 
 These a few CSS classes that mimic a few of my real-world pages and pen colors.
 Go ahead and try it out! You can change or add new color variables or entire new
@@ -31,11 +31,6 @@ https://angel-rs.github.io/css-color-filter-generator
   --page-white: #ffffff;
   --page-manila: #f3deaf;
   --page-blue: #3f76ed;
-
-  /* Default Variables */
-  --page-color: var(--page-manila);
-  --accent-color: var(--pen-black);
-  --accent-color-trans: color-mix(in srgb, var(--pen-black) 15%, transparent);
 
   --grid-size: 32px;
 }
