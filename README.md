@@ -27,3 +27,12 @@ Check out the full video going over the process [here](https://youtu.be/9T9VL8_i
 - `embed-<PAGE-COLOR>`: Adds the specified page color as a background for all embedded images on a page.
 
 *Image Effects generated with https://angel-rs.github.io/css-color-filter-generator.*
+
+## How to Install and use the CSS Snippet
+
+1. Download `Notebook Backgrounds.css` from this repo.
+2. Open the settings panel in Obsidian and click the Appearance tab.
+3. Scroll to "CSS snippets" and click the folder icon.
+4. Drop `Notebook Backgrounds.css` into the folder that appears.
+5. Now back in Obsidian, next to "CSS snippets", click the "Reload snippets" button.
+6. You should now see `Notebook Backgrounds.css` in the list. Toggle it on and you're ready to go!
