@@ -35,4 +35,4 @@ Check out the full video going over the process [here](https://youtu.be/9T9VL8_i
 3. Scroll to "CSS snippets" and click the folder icon.
 4. Drop `Notebook Backgrounds.css` into the folder that appears.
 5. Now back in Obsidian, next to "CSS snippets", click the "Reload snippets" button.
-6. You should now see `Notebook Backgrounds.css` in the list. Toggle it on and you're ready to go!
+6. You should now see `Notebook Backgrounds` in the list. Toggle it on and you're ready to go!
